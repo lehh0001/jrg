@@ -1,3 +1,0 @@
-# jrg
-# blog
-# blog
