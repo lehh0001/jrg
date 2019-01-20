@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    html,
+    body {
+      height: 100%;
+    }
+
+    .box {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -200px;
+      margin-top: -150px;
+      /* transform不足点是低版本不兼容 */
+      /* transform: translate(-50%,-50%);  */
+
+      width: 400px;
+      height: 300px;
+      border: 3px solid red;
+      background: #000;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="box"></div>
+
+</body>
+
+</html>
